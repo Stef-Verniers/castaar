@@ -5,8 +5,6 @@ export default function Create ({ showModal, handleCloseModal }) {
 
     console.log(showModal);
 
-
-
     async function handleSubmit(e) {
         e.preventDefault();
         const form = document.getElementById('createUser');
