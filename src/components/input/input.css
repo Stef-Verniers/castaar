@@ -1,0 +1,43 @@
+.input__div {
+    margin-bottom: 30px;
+}
+
+input {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid var(--primary);
+    font-size: 1rem;
+    outline: none;
+    background: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input::placeholder {
+    font-weight: bold;
+}
+
+.input__label {
+    font-size: 0.7rem;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+/* label + .input__div:not(:focus)  {
+    position: absolute;
+    left:0px;
+    top: 0px;
+    transition: all 0.5s;
+    overflow: hidden;
+    color: #999;
+    white-space: nowrap;
+    z-index: -1;
+    opacity: 0;
+}
+
+.input__div input:focus + label {
+    opacity: 1;
+    z-index: 2;
+    top: -20px;
+} */

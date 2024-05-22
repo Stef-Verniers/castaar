@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE `Clients` ADD COLUMN `city` VARCHAR(191) NULL,
+    ADD COLUMN `country` VARCHAR(191) NOT NULL DEFAULT 'België',
+    ADD COLUMN `zip` INTEGER NULL;
